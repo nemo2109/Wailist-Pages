@@ -1,7 +1,76 @@
+body{
+  padding: 3%;
+}
+
+.main{
+  background-color: #f6f9fe;
+  padding: 6%;
+}
+
 .menu{
   width: 30;
   height: 24;
   position: relative;
-  left: 28rem;
+  left: 22rem;
 }
+
+.contenedor-1{
+  margin-top: 6%;
+  margin-bottom: 5rem;
+}
+
+.titulo-1{
+  font-size: 1.1rem;
+  font-style: inherit;
+  background-color: rgba(55,40,101,255);
+  padding: 1%;
+  border-radius: 5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 10%;
+  color: antiquewhite;
+}
+
+strong{
+  text-decoration: underline;
+}
+
+.titulo-2{
+  color: rgba(55,40,101,255);
+  text-align: center;
+  margin-bottom: 1rem;
+  
+}
+
+.parrafo-1{
+  color: gray;
+  text-align: center;
+}
+
+#forma{
+  display: block;
+  justify-content: center;
+  margin-left: 4rem;
+}
+
+
+.input{
+ border-style: none;
+ padding: 2%;
+ width: 84%;
+ margin-bottom: 1rem;
+}
+
+.btn{
+  background-color: rgba(55,40,101,255);
+  color:white;
+  width: 85%;
+  padding: 2%;
+  margin-bottom: 1rem;
+}
+
+.icono{
+  margin: 2%;
+}
+
 
