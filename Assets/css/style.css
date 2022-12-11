@@ -39,6 +39,7 @@ strong{
   color: rgba(55,40,101,255);
   text-align: center;
   margin-bottom: 1rem;
+  font-weight: 400;
   
 }
 
@@ -71,6 +72,74 @@ strong{
 
 .icono{
   margin: 2%;
+}
+
+
+/*
+Configuracion pantalla mediana
+*/
+
+@media screen and (min-width: 820px){
+
+  .menu{
+    position: relative;
+    left: 90%;
+  }
+
+  .contenedor-1{
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+
+  .titulo-1{
+    font-size: medium;
+    font-style: inherit;
+    width: 60%;
+    text-align: center;
+    color: rgb(174, 170, 170);
+  }
+
+  #caja-1{
+    display: flex;
+    justify-content: center;
+  }
+
+  .titulo-2{
+    font-weight: 500;
+  }
+
+  strong{
+    color: aliceblue;
+  }
+
+  .parrafo-1{
+    text-align: center;
+  }
+
+  #forma{
+    display: flex;
+    margin-right: 10rem;
+    margin-bottom: 5rem;
+  }
+
+  .btn{
+    width: 10rem;
+    height: 50px;
+    margin-top: 1.5rem;
+    margin-left: 3%;
+  }
+
+  .input{
+    width: 20rem;
+    height: 50px;
+    margin-right: 2%;
+  }
+
+
+
+  
+
+  
 }
 
 
