@@ -74,6 +74,11 @@ strong{
   margin: 2%;
 }
 
+.imagen{
+  width: 0%;
+}
+
+
 
 /*
 Configuracion pantalla mediana
@@ -83,7 +88,7 @@ Configuracion pantalla mediana
 
   .menu{
     position: relative;
-    left: 90%;
+    left: 100%;
   }
 
   .contenedor-1{
@@ -134,6 +139,10 @@ Configuracion pantalla mediana
     height: 50px;
     margin-right: 2%;
   }
+
+  .imagen{
+    width: 0%;
+  }
 }
 
 /*
@@ -147,57 +156,52 @@ Configuracin pantalla grande
  }
 
  .main{
-  padding: 2%;
+   padding: 2%;
  }
 
  .imagen{
-   width: 20rem;
+   width: 25rem;
    position: absolute;
-   bottom: 0.2px;
+   bottom: 26%;
    margin-left: 5%;
    
  }
 
  .titulo-1{
    position: relative;
-   left: 24%;
+   left: 20%;
    font-size: 19px;
    padding: 3px;
    width: 33rem;
  }
 
  .titulo-2{
-  font-size: 2.9rem;
-  width: 50%;
-  position: relative;
-  left: 50%;
+   font-size: 2.9rem;
+   width: 50%;
+   position: relative;
+   left: 45%;
  }
 
  .parrafo-1{
-  width: 50%;
-  text-align: center;
-  position: relative;
-  left: 50%;
+   width: 50%;
+   text-align: center;
+   position: relative;
+   left: 45%;
  }
 
  #forma{
-  position: relative;
-  left: 30%;
+   position: relative;
+   left: 23%;
  }
 
  .icono{
-  margin: 1%;
+   margin: 1%;
  }
 
  .icons{
-  position: relative;
-  left: 55%;
+   position: relative;
+   left: 55%;
  }
-
-
-
-
- 
 }
 
 
