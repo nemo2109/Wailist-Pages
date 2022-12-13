@@ -134,12 +134,70 @@ Configuracion pantalla mediana
     height: 50px;
     margin-right: 2%;
   }
+}
+
+/*
+Configuracin pantalla grande
+*/
+
+@media screen and (min-width: 1200px){
+
+ .menu{
+   width: 0%;
+ }
+
+ .main{
+  padding: 2%;
+ }
+
+ .imagen{
+   width: 20rem;
+   position: absolute;
+   bottom: 0.2px;
+   margin-left: 5%;
+   
+ }
+
+ .titulo-1{
+   position: relative;
+   left: 24%;
+   font-size: 19px;
+   padding: 3px;
+   width: 33rem;
+ }
+
+ .titulo-2{
+  font-size: 2.9rem;
+  width: 50%;
+  position: relative;
+  left: 50%;
+ }
+
+ .parrafo-1{
+  width: 50%;
+  text-align: center;
+  position: relative;
+  left: 50%;
+ }
+
+ #forma{
+  position: relative;
+  left: 30%;
+ }
+
+ .icono{
+  margin: 1%;
+ }
+
+ .icons{
+  position: relative;
+  left: 55%;
+ }
 
 
 
-  
 
-  
+ 
 }
 
 
